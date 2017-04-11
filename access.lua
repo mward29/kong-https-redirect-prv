@@ -1,9 +1,6 @@
 local url = require "socket.url"
 local pl_stringx = require "pl.stringx"
 
-local helpers = require "kong.plugins.rewrite.helpers"
-local log = helpers.log.error
-
 local _M = {}
 
 function _M.execute(conf)
